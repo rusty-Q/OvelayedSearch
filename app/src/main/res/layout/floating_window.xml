@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/floating_bg"
+    android:padding="8dp"
+    android:elevation="10dp"
+    android:id="@+id/mainContainer">
+
+    <ImageView
+        android:id="@+id/dragHandle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_drag_handle"
+        android:padding="12dp"
+        android:tint="#666666"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_search"
+        android:layout_marginEnd="8dp"
+        android:tint="#666666"/>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:hint="Поиск..."
+        android:background="@null"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"/>
+
+    <ImageView
+        android:id="@+id/btnSettings"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_settings"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:tint="#666666"/>
+
+    <!-- Новая кнопка закрытия -->
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_close"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:tint="#666666"/>
+
+</LinearLayout>

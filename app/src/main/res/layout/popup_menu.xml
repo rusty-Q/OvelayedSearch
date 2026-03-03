@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/menu_bg"
+    android:padding="8dp"
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/btnGoogle"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="Google"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/btnYandex"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="Яндекс"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/btnDuck"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="DuckDuckGo"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/btnBing"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="Bing"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>
